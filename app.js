@@ -10,6 +10,9 @@ app.set('view engine', 'ejs');
 // set up routing
 app.use('/', index);
 
+// set static files directory...
+app.use("/public", express.static(__dirname + '/public'));
+
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
   var err = new Error('Not Found');

@@ -1,1 +1,12 @@
-console.log("hello react up!!")
+import './styles/index.scss';
+import React from 'react';
+
+import {render} from 'react-dom';
+
+class App extends React.Component {
+  render () {
+    return <p> Hello React!</p>;
+  }
+}
+
+render(<App/>, document.getElementById('app-mount-point'));
