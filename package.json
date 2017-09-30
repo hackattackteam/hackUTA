@@ -1,0 +1,24 @@
+{
+  "name": "hackuta",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hackattackteam/hackUTA.git"
+  },
+  "author": "hackattackteam",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hackattackteam/hackUTA/issues"
+  },
+  "homepage": "https://github.com/hackattackteam/hackUTA#readme",
+  "dependencies": {
+    "express": "^4.16.1",
+    "morgan": "^1.9.0",
+    "webpack": "^3.6.0"
+  }
+}
